@@ -6,7 +6,7 @@ import unittest
 import urllib.request
 
 
-BASE_URL = 'http://localhost:5000'
+BASE_URL = 'http://gateway-api:5000'
 
 
 def http_cmd_req(_url, _data=None, _method='POST'):
